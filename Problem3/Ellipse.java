@@ -17,7 +17,7 @@ public class Ellipse extends Shape {
 
     @Override
     public double getPerimeter() {
-        return Math.PI * (2 * (a * a + b * b) - Math.pow((a - b), 2)) / 2;
+        return Math.PI * Math.sqrt((2 * (a * a + b * b) - Math.pow((b - a), 2) / 2));
     }
 
     @Override

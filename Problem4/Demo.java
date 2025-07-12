@@ -12,10 +12,10 @@ public class Demo {
         try {
             System.out.println();
             Scalable[] shapes = new Scalable[4];
-            shapes[0] = new Ellipse("Ellipse", 6.0, 4.0);
-            shapes[1] = new Circle("Circle", 3.0);
-            shapes[2] = new Triangle("Triangle", 3.0, 4.0, 5.0);
-            shapes[3] = new EquilateralTriangle("Equal Triangle", 6.0);
+            shapes[0] = new Ellipse("Oval", 5.0, 3.0);
+            shapes[1] = new Circle("Circle", 2.0);
+            shapes[2] = new Triangle("Triangle", 4.0, 3.0, 4.0);
+            shapes[3] = new EquilateralTriangle("Equal Triangle", 5.0);
 
             System.out.println("Before scaling:");
             for (Scalable s : shapes) {
