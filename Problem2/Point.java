@@ -1,9 +1,9 @@
 package Problem2;
 
 public class Point {
-    // x coordinate, starts at 0.0f
+    // x coordinate starts at 0.0f
     private float x = 0.0f;
-    // y coordinate, starts at 0.0f
+    // y coordinate starts at 0.0f
     private float y = 0.0f;
 
 

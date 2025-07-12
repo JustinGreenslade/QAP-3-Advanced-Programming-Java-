@@ -1,4 +1,5 @@
 package Problem1;
+
 public class Person {
     protected String myName;   // name of the person
     protected int myAge;       // persons age

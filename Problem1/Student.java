@@ -1,4 +1,5 @@
 package Problem1;
+
 public class Student extends Person {
     protected String myIdNum;  // Student Id Number
     protected double myGPA;    // grade point average

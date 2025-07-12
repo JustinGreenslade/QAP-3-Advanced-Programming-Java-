@@ -1,4 +1,5 @@
 package Problem1;
+
 public class CollegeStudent extends Student {
     private String major;
     private int year;

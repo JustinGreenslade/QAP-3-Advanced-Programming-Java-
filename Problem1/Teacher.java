@@ -1,4 +1,5 @@
 package Problem1;
+
 public class Teacher extends Person {
     private String subject;
     private double salary;
@@ -29,6 +30,6 @@ public class Teacher extends Person {
 
     @Override
     public String toString() {
-        return super.toString() + ", Subject: " + subject + ", Salary: " + salary;
+        return super.toString() + ", Subject: " + subject + ", Salary: $" + String.format("%,.2f",salary);
     }
 }
